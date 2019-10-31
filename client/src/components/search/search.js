@@ -72,7 +72,7 @@ class Search extends React.Component {
             name="searchBox"
             value={this.state.searchBox}
           />
-          <button onClick={this.searchItems}></button>
+          <button onClick={this.updateUrl}></button>
         </div>
       </div>
     );

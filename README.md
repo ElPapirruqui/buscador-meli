@@ -6,3 +6,5 @@ Para instalar las dependencias del servidor, dirigirse con la consola de comando
 Para las dependencias del cliente, dirigirse a la carpeta "client" y ejecutar nuevamente el comando "npm i"
 
 Una vez instaladas las dependencias de ambos proyectos, para poder iniciarlos se debera iniciar ingresando a las carpetas respectivas de los mismos y correr el comando "npm run start"
+
+Para acceder a la aplicación, ingresar desde un navegador a la URL http://localhost:3000/

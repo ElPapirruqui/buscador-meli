@@ -1,0 +1,71 @@
+.ml-item {
+  min-height: 140px;
+  padding: 0 20px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.ml-item > div {
+  width: 100%;
+  height: 100%;
+  padding: 15px 0;
+}
+
+.ml-item:not(:last-child) > div {
+  border-bottom: #eee 1px solid;
+}
+
+.ml-item .ml-picture,
+.ml-item .ml-detail {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ml-item .ml-address {
+  float: right;
+  color: #777;
+  font-size: 13px;
+  width: 110px;
+}
+
+.ml-item .ml-picture a {
+  display: block;
+  width: 150px;
+}
+
+.ml-item .ml-picture a img {
+  width: 100%;
+}
+
+.ml-item .ml-detail {
+  width: calc(100% - 290px);
+  padding-left: 15px;
+}
+
+.ml-item .ml-detail a {
+  color: #222;
+  text-decoration: none;
+}
+
+.ml-item .ml-price {
+  font-size: 22px;
+  padding: 12px 0px;
+}
+
+.ml-item .ml-price img {
+  padding-left: 10px;
+}
+
+@media (max-width: 425px) {
+  .ml-item .ml-address {
+    float: none;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    width: 100px;
+    padding-right: 5px;
+  }
+  .ml-item .ml-detail {
+    width: 100%;
+  }
+}

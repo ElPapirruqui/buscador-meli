@@ -1,0 +1,63 @@
+.ml-item-detail > div {
+  padding: 10px;
+}
+
+.ml-item-detail .ml-description > h3 {
+  padding: 10px 0;
+}
+
+.ml-item-detail .ml-description > p {
+  font-size: 14px;
+  color: #666;
+  padding: 5px 0;
+  word-break: break-word;
+}
+
+.ml-item-detail .ml-picture {
+  width: 70%;
+  text-align: center;
+}
+
+.ml-item-detail .ml-detail {
+  width: 30%;
+}
+
+.ml-item-detail .ml-description {
+  width: 100%;
+}
+
+.ml-item-detail .ml-picture,
+.ml-item-detail .ml-detail {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ml-item-detail .ml-picture > img {
+  max-width: 100%;
+}
+
+.ml-item-detail .ml-sold-info {
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  color: #666;
+  font-size: 15px;
+}
+
+.ml-item-detail .ml-detail > h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.ml-item-detail .ml-detail .ml-free-shipping {
+  padding-bottom: 15px;
+}
+
+.ml-item-detail .ml-detail .ml-free-shipping > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ml-item-detail .ml-detail .ml-free-shipping span {
+  color: #00a650;
+  padding-left: 10px;
+}

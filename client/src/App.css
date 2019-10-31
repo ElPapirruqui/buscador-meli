@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  border: solid 1px #eee;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+}
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  transition: all 0.15s ease;
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #ddd;
+}
+
+.ml-bg-brand {
+  background-color: #fee600;
+}
+
+.ml-bg-app {
+  background-color: #eeeeee;
+}
+
+.ml-bg-content {
+  background-color: #fff;
+}
+
+.ml-container {
+  padding: 5px;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.ml-column {
+  padding: 0 15px;
+}
+
+.ml-button {
+  color: white;
+  background-color: #3483fa;
+  height: auto;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.ml-decimals {
+  vertical-align: top;
+  font-size: 0.75em;
+  padding-left: 0.2em;
+  line-height: 1.3em;
+}
+
+@media (max-width: 425px) {
+  .ml-column {
+    width: 100% !important;
+  }
+}

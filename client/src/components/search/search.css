@@ -1,0 +1,21 @@
+.ml-searchbox > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ml-searchbox > input[type="text"] {
+  border-radius: 5px 0 0 5px;
+  width: calc(100% - 90px);
+}
+
+.ml-searchbox > a {
+  margin-right: 5px;
+}
+
+.ml-searchbox > button {
+  border-radius: 0 5px 5px 0;
+  background-image: url("../../images/ic_Search.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  background-position: center;
+}
